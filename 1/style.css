@@ -65,7 +65,13 @@ header {
     color: #368ecc;
 }
 
-/* Forms */
+/* Form style */
+form {
+    font-size: larger;
+}
+form > * {
+    margin: 1rem 0;
+}
 /* Input type text */
 input[type="text"] {
     border: none;
