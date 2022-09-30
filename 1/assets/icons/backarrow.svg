@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="29px" viewBox="0 0 39 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Backarrow</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Backarrow" transform="translate(1.000000, 1.221436)" stroke="#3791CF">
+            <line x1="0.303278689" y1="13.4348135" x2="36.6967213" y2="13.4348135" id="Line"></line>
+            <line x1="1.97368421" y1="12.2785635" x2="9.76315789" y2="25.7785635" id="Line-2" transform="translate(5.868421, 19.028564) rotate(-15.015138) translate(-5.868421, -19.028564) "></line>
+            <line x1="-0.881578947" y1="3.63382666" x2="12.6184211" y2="11.4233003" id="Line-2-Copy" transform="translate(5.868421, 7.528564) rotate(105.015138) translate(-5.868421, -7.528564) "></line>
+        </g>
+    </g>
+</svg>

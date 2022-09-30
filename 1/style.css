@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+
+    border: 1px solid red;
+}
+
+@font-face {
+    font-family: defaultFont;
+    src: url(/assets/fonts/thin.ttf);
+}
+
+body {
+    text-align: center;
+    background-color: #bfd1e2;
+    display: grid;
+    place-items: center;
+
+    font-size: 1.8rem;
+    font-family: defaultFont;
+}
+
+.content {
+    width: 565pt;
+    height: 1002pt;
+
+    background: rgb(63, 75, 153);
+    background: linear-gradient(
+        90deg,
+        rgba(63, 75, 153, 1) 0%,
+        rgba(69, 82, 157, 1) 50%,
+        rgba(69, 82, 157, 1) 100%
+    );
+    padding: 3rem 4rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-item {
+    color: white;
+    width: 48px;
+    height: 48px;
+
+    display: grid;
+    place-items: center;
+}
+.header-item.title {
+    flex-grow: 1;
+}
+.header-item img {
+    width: 48px;
+}
+
+.logo {
+    margin: 2rem;
+    width: 90px;
+}
+
+.blue {
+    color: #368ecc;
+}

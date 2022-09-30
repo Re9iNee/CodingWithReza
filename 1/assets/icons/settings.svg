@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="45px" viewBox="0 0 48 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Settings</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Settings" transform="translate(0.500000, 0.000000)" stroke="#3597D3">
+            <g id="bar">
+                <line x1="12" y1="4.5" x2="47" y2="4.5" id="Line-3" stroke-linecap="square"></line>
+                <line x1="1.42247325e-14" y1="4.5" x2="4" y2="4.5" id="Line-3-Copy-5" stroke-linecap="square"></line>
+                <circle id="Oval" cx="8" cy="4.5" r="4"></circle>
+            </g>
+            <g id="bar-copy-2" transform="translate(0.000000, 24.000000)">
+                <line x1="12" y1="4.5" x2="47" y2="4.5" id="Line-3" stroke-linecap="square"></line>
+                <line x1="1.42247325e-14" y1="4.5" x2="4" y2="4.5" id="Line-3-Copy-5" stroke-linecap="square"></line>
+                <circle id="Oval-Copy-2" cx="8" cy="4.5" r="4"></circle>
+            </g>
+            <g id="bar-copy" transform="translate(0.000000, 12.000000)">
+                <line x1="44" y1="4.5" x2="47" y2="4.5" id="Line-3" stroke-linecap="square"></line>
+                <line x1="1.42247325e-14" y1="4.5" x2="35" y2="4.5" id="Line-3-Copy-5" stroke-linecap="square"></line>
+                <circle id="Oval-Copy" cx="39" cy="4.5" r="4"></circle>
+            </g>
+            <g id="bar-copy-3" transform="translate(0.000000, 36.000000)">
+                <line x1="44" y1="4.5" x2="47" y2="4.5" id="Line-3" stroke-linecap="square"></line>
+                <line x1="1.42247325e-14" y1="4.5" x2="35" y2="4.5" id="Line-3-Copy-5" stroke-linecap="square"></line>
+                <circle id="Oval-Copy-3" cx="39" cy="4.5" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
