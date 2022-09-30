@@ -12,6 +12,7 @@
 }
 
 body {
+    color: #c2c7df;
     text-align: center;
     background-color: #bfd1e2;
     display: grid;
@@ -62,4 +63,20 @@ header {
 
 .blue {
     color: #368ecc;
+}
+
+/* Forms */
+/* Input type text */
+input[type="text"] {
+    border: none;
+    background-color: transparent;
+    color: #c2c7df;
+    border-bottom: 1px solid #5965a6;
+    width: 100%;
+    padding-bottom: 10px;
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: #636caa;
 }
