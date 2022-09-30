@@ -3,7 +3,7 @@
 *::after {
     box-sizing: border-box;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 @font-face {
@@ -79,4 +79,16 @@ input[type="text"] {
 
 input[type="text"]::placeholder {
     color: #636caa;
+}
+/* Submit Button */
+button[type="submit"] {
+    margin-top: 2rem;
+    color: #daf2fb;
+
+    letter-spacing: 0.2rem;
+    width: 100%;
+    border: none;
+    padding: 2rem;
+    background-color: #2fbaee;
+    border-radius: 4px;
 }
