@@ -1,12 +1,16 @@
 /* INIT Style */
 @font-face {
     font-family: nord;
-    src: url(GintoNordRegular.ttf);
+    font-weight: normal;
+    src: url(assets/fonts/GintoNordRegular.ttf);
 }
+
 *,
 *::after,
 *::before {
     box-sizing: border-box;
+
+    font-family: nord;
 }
 
 body {
@@ -51,7 +55,10 @@ section .info {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-family: nord;
+}
+
+section .info h1 {
+    font-size: 2rem;
 }
 section .info {
     margin: 0 18%;
@@ -64,4 +71,24 @@ section .info {
     background-color: black;
     border-radius: 30px;
     color: white;
+}
+
+#discordLogo {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+#discordLogo {
+    color: rgba(255, 255, 255, 0.69);
+    transition: 0.2s all ease-in-out;
+}
+#discordLogo:hover {
+    color: white;
+}
+#discordLogoSvg {
+    transition: 0.2s all ease-in-out;
+}
+#discordLogoSvg:hover {
+    fill: white;
 }
