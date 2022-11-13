@@ -1,4 +1,8 @@
 /* INIT Style */
+@font-face {
+    font-family: nord;
+    src: url(GintoNordRegular.ttf);
+}
 *,
 *::after,
 *::before {
@@ -46,10 +50,18 @@ section .info {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     text-align: center;
+    font-family: nord;
 }
 section .info {
     margin: 0 18%;
     padding: 20px;
+}
+
+.control-links > button {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
 }
