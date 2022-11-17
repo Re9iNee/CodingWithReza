@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    text-align: center;
+}
+
+div {
+    flex-grow: 1;
+
+    padding: 50px;
+    border: 0.5px solid black;
+    font-size: 24px;
+    background-color: cyan;
+}
+
+/* if width is below 700px do these: */
+@media (max-width: 700px) {
+    body {
+        flex-direction: column;
+    }
+
+    #third {
+        display: none;
+    }
+}
+
+/* if width range is between 769px till 1024px  */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body > :nth-child(even) {
+        background-color: bisque;
+    }
+}
