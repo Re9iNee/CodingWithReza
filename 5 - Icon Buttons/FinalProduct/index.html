@@ -12,33 +12,67 @@
 
         <link rel="stylesheet" href="../buttons.style.css" />
         <style>
-            :root {
-                --icon-distant: 20px;
-            }
-
             body {
                 display: flex;
-                justify-content: space-around;
+            }
+
+            .btn-container {
+                width: fit-content;
+
+                margin: 1rem;
+            }
+
+            button {
+                width: 100%;
+                display: flex;
+                min-width: 5rem;
+                padding-right: 10px;
+                padding-left: 10px;
+                gap: 10px;
+
+                transition: 0.2s all ease-in-out;
             }
 
             #setting-btn i {
                 display: flex;
+            }
 
-                margin-right: var(--icon-distant);
+            button > span {
+                flex-grow: 1;
             }
 
             #add-btn i {
                 display: flex;
+            }
 
-                margin-left: var(--icon-distant);
+            .btn-secondary:hover {
+                background-color: rgb(189, 189, 189);
+            }
+
+            .btn-primary {
+                color: #f1f1ff;
+                background-color: rgba(44, 44, 207, 0.9);
+
+                min-width: 10rem;
+            }
+
+            .btn-primary:hover {
+                color: white;
+                background-color: rgb(25, 25, 207);
             }
         </style>
     </head>
     <body>
-        <button id="setting-btn">
-            <i class="fi fi-rr-settings"></i> Settings
-        </button>
+        <div class="btn-container">
+            <button id="add-btn" class="btn-primary">
+                <span>Add</span> <i class="fi fi-rr-add"></i>
+            </button>
+        </div>
 
-        <button id="add-btn">Add <i class="fi fi-rr-add"></i></button>
+        <div class="btn-container">
+            <button id="setting-btn" class="btn-secondary">
+                <i class="fi fi-rr-settings"></i> <span>Settings</span>
+            </button>
+        </div>
     </body>
 </html>
