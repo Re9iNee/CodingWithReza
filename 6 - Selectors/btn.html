@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .btn {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: 150px;
+                height: 40px;
+                color: black;
+                background-color: white;
+                border-radius: 16px;
+            }
+            .btn:hover {
+                background-color: black;
+                color: white;
+                border: blue 2px;
+            }
+
+            .svg_btn {
+                width: 20px;
+                height: 20px;
+            }
+
+            .btn:hover .svg_btn {
+                filter: invert(71%) sepia(67%) saturate(6655%)
+                    hue-rotate(163deg) brightness(97%) contrast(101%);
+            }
+
+            .btn:hover + h1 {
+                color: pink;
+            }
+
+            .btn:hover ~ .dovomish {
+                color: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="btn full-width">
+            click for more information
+            <embed class="svg_btn" src="/icons/morecontent.svg" />
+        </button>
+        <h1>GUZ</h1>
+
+        <h1 class="dovomish">SHALVAR KHAL KHALI</h1>
+    </body>
+</html>
