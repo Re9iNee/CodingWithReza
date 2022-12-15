@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            *,
+            *::before,
+            *::after {
+                box-sizing: border-box;
+            }
+
+            :root {
+                --width-offset: 20px;
+            }
+
+            * {
+                border: 1px solid red;
+            }
+
+            body {
+                font-family: sans-serif;
+            }
+
+            body {
+                margin: 0;
+            }
+
+            .background {
+                z-index: -1;
+                position: absolute;
+                width: 100vw;
+
+                pointer-events: none;
+            }
+
+            header {
+                padding: 10px var(--width-offset);
+
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .logo {
+                width: 60px;
+                height: 150px;
+                border-radius: 30px;
+
+                background: rgb(2, 0, 36);
+                background: linear-gradient(
+                    180deg,
+                    rgba(2, 0, 36, 1) 0%,
+                    rgba(122, 71, 71, 1) 50%,
+                    rgb(154, 70, 70) 100%
+                );
+            }
+
+            .link-containers {
+                /* children */
+                flex-grow: 1;
+
+                gap: 3rem;
+                display: inline-flex;
+                justify-content: center;
+            }
+
+            .link-containers > a {
+                color: rgb(31, 31, 31);
+                text-decoration: none;
+                align-self: flex-start;
+            }
+
+            .build-portfolio-btn {
+                border-radius: 2rem;
+                padding: 0.5rem;
+
+                color: white;
+                background-color: rgb(121, 61, 243);
+
+                align-self: flex-start;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="background">
+            <img
+                src="./icons/background.svg"
+                alt="background svg"
+                width="100%"
+            />
+        </div>
+
+        <header>
+            <img src="./icons/logo.svg" alt="logo" class="logo" />
+
+            <div class="link-containers">
+                <a href="/about-us">About us</a>
+                <a href="/support">Support</a>
+                <a href="/donate">Donate</a>
+            </div>
+
+            <a class="build-portfolio-btn">Build my portfolio</a>
+        </header>
+    </body>
+</html>
