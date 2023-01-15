@@ -1,6 +1,3 @@
-/* ESLINT-DISABLE */
-const kossherKeBikhialShe = "";
-
 // Define a function
 // es5 <
 // ESCMASCRIPT 2015
